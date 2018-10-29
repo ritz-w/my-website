@@ -1,0 +1,19 @@
+#panel1 {
+  background: rgba(174, 97, 110, 0.5);
+}
+
+.panel-text1 {
+  background: rgba(155, 116, 123, 0.5);
+}
+
+#panel2 {
+  background: rgba(136, 136, 136, 0.5);
+}
+
+.panel-text2 {
+  background: rgba(116, 155, 148, 0.5);
+}
+
+#panel3 {
+  background: rgba(97, 174, 161, 0.5);
+}

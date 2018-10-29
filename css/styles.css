@@ -1,0 +1,550 @@
+
+/*GENERAL ELEMENTS*/
+
+body {
+ background-image: url("../img/gridme.png"); 
+ color: #000;
+}
+
+.anchor { 
+ padding-top: 100px;
+}
+
+.box {
+ width: 80%;
+ height: 100%;
+ margin: 50px auto 0 auto;
+ border-left: solid;
+ border-right: solid;
+ background-color: #FFF;
+}
+
+.container {
+ margin: 10px auto;
+ width: 100%;
+}
+
+.btn-default {
+ color: #000;
+ background-color: #fff;
+ border-color: #000;
+ margin-left: 15px;
+ margin-top: 5%;
+ font-family: 'Rubik';
+}
+
+/*CAROUSEL ELEMENTS*/
+
+.container-fluid { /*resets padding on inner carousel*/
+ padding: 0;
+}
+
+.carousel-caption {
+ width: 800px;
+ right: 10%;
+ left: 14%;
+ padding-bottom: 25%;
+}
+
+.carousel-caption h2 {
+ text-align: left;
+ font-style: italic;
+ font-size: 2vw;
+}
+
+.carousel-inner {
+ max-height: 370px !important;
+}
+
+#loading {
+  width: 100%;
+  height: 400px;
+  position: static;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#loading-image {
+  margin-top: 50%;
+  z-index: 100;
+}
+
+#loading-text {
+  text-align: center;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  font-size: 0.7em;
+}
+
+
+/*NAVIGATION BAR ELEMENTS*/
+
+.navbar { 
+ background-color: #FFF;
+ color: #000;
+ -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+ -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+ animation-name: example;
+ animation-duration: 4s;
+ border-bottom: solid;
+ border-width: 2px;
+}
+
+.navbar ul li {
+ padding: 10px 20px 10px 0px;
+ color: #000;
+}
+
+.navbar ul li a { /*navbar fonts*/
+ letter-spacing: 0em;
+ font-size: 15px;
+ transition: all 0.5s ease;
+}
+
+.navbar-default .navbar-nav>li>a { /*navbar unclicked*/
+  color: #000; 
+}
+
+/*navbar hover effect*/
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover,
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+ color: #000;
+ background-color: #FFF;
+ text-shadow: #969696 1px 1px 0, #aba8a8 1px 13px 5px;
+}
+
+/*site name/logo*/
+.projectName {
+ margin-top: 10px;
+}
+
+.projectName a { /*site name font properties*/
+ font-family: 'Rubik', serif;
+ font-size: 1.5em;
+ color: #000;
+ padding: 1.5em;
+ font-weight: 100;
+}
+
+/*dropdown elements*/
+
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:focus, 
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+ color: #000;
+ text-shadow: #969696 1px 1px 0, #aba8a8 1px 13px 5px;
+ background-color: #FFF;
+}
+
+/*top of page elements*/
+
+/*column and row elements*/
+
+.row{ /*reset column left/right margins*/
+ margin: 0px;
+ padding: 10px;
+}
+
+.col-md-4, .col-xs-12 { /*reset column left/right margins*/
+ padding: 0px 10px;
+}
+
+.col-md-4 h2 { /*section header fonts*/
+ font-family: 'Libre Franklin', Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+ font-size: 1em;
+ font-weight: 100;
+ text-align: left;
+}
+
+.col-md-4 p { /*column text fonts*/
+ font-family: Helvetica Neue, Arial, sans-serif;
+ font-size: 1em;
+ text-align: center;
+ line-height: 115%;
+}
+
+.col-md-6 p { /*column text fonts*/
+ font-family: Helvetica Neue, Arial, sans-serif;
+ font-size: 1em;
+ text-align: center;
+ line-height: 115%;
+ float: right;
+}
+
+/*Contact ELEMENTS*/
+
+.contact-box {
+ background-image: url("https://images.unsplash.com/photo-1505150215519-9f4054bfd3ff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94cc82045c67f5cc23ade60c34b325cb&auto=format&fit=crop&w=2468&q=80");
+ background-attachment: fixed;
+ background-size: cover;
+ padding: 10% 0%;
+}
+
+#contact-main-text {
+  padding: 6%;
+  margin-top: 10%;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+}
+
+.contact-box p {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+}
+
+.contact-box a {
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+
+}
+
+.form-box {
+ padding-top: 50px;
+ width: 70%;
+ height: auto;
+ margin: 0 15%;
+}
+
+.form-control {
+ width: 90%;
+}
+
+.message-box {
+ border-color: #000;
+}
+
+#modalembed {
+ height: 500px;
+ width: 100%;
+ padding: 10px;
+}
+
+.modal-section {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#char-count {
+ text-align: left;
+}
+
+#map {
+  height: 250px;
+  width: 100%;
+  display: block;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px;
+}
+
+
+/*FAQ SECTION*/
+
+/*Color Variables for demo*/
+
+.img-booklet {
+  margin-top: 20%;
+}
+.caption {
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 50%;
+}
+
+#scrapbook-intro {
+  width: 60%;
+  margin: auto;
+}
+
+.shadow1{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow1:before, .shadow1:after{
+  position:relative;
+  content:"";
+  bottom:12px;left:15px;top:80%;
+  width:45%;
+  background:#9B7468;
+  z-index:-1;
+  -webkit-box-shadow: 0 20px 15px #9B7468;
+  -moz-box-shadow: 0 20px 15px #9B7468;
+  box-shadow: 0 20px 15px #9B7468;
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+.shadow1:after{
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  transform: rotate(6deg);
+  right: 15px;left: auto;
+}
+
+
+#menu-styling {
+  width: 60%;
+  padding-bottom: 50px;
+}
+.faqanchor {
+ padding-top: 50px;
+}
+
+.videobox {
+ text-align: center;
+}
+
+.panel-title {
+ font-family: 'Rubik', Helvetica, Arial, sans-serif;
+ font-size: 1.5em;
+ text-transform: italic;
+ font-weight: 100;
+}
+
+.panel-group .panel {
+  margin-bottom: 4px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #FFF;
+}
+
+.panel-body {
+ font-family: 'Rubik', serif;
+ font-size: 1.2em;
+}
+
+.learn-more {
+ text-align: left;
+ float: left;
+}
+
+.research-image {
+  width: 50%;
+  margin-left: 25%;
+  padding: 1em;
+}
+
+.research-image2 {
+  width: 80%;
+  margin-left: 10%;
+  padding: 1em;
+}
+
+.research-image3 {
+  width: 70%;
+  margin-left: 15%;
+  padding: 1em;
+}
+
+.research-caption {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.research-header {
+  text-align: left;
+}
+
+.panel-body a {
+  text-align: center;
+}
+
+.panel-body p {
+  width: 80%;
+  margin-left: 10%;
+}
+/*about elements*/
+
+.my-face {
+ width: 60%;
+ height: auto;
+ margin: 0 10% 0 20%;
+ border-style: solid;
+ border-width: 3px;
+ border-color: #000;
+ border-radius: 100%;
+ color: #FFF;
+}
+
+.my-greeting p{
+  float: none;
+}
+
+.my-greeting h2 {
+ position: relative;
+ font-family: 'Rubik', Helvetica, Arial, sans-serif;
+ font-size: 4vw;
+}
+
+/*work page column elements*/
+
+.desc {
+ padding: 10px 0;
+}
+
+.workexample {
+ width: 100%;
+ height: auto;
+ margin: 30px 30px;
+ text-align: center;
+ border: 1px solid #000;
+}
+
+.work-img {
+ display: block;
+ margin: auto;
+ max-width: 390px;
+ max-height: 350px;
+ margin: 0 auto;
+ position: relative;
+}
+
+.image-card {
+  position: relative;
+  text-align: center;
+  padding: 0 30%;
+}
+
+.info {
+ display: none;
+ position: absolute;
+ top: 30%;
+ width: 100%;
+ font-family: 'Rubik', serif; 
+ font-size: 1.5em;
+ text-align: center;
+ line-height: 115%;
+ color: #FFF;
+ background-color: #000;
+ padding: 3px;
+}
+
+.proj-title {
+ font-family: 'Rubik', serif; 
+ font-size: 1.5em;
+ margin: 0 auto;
+ font-style: italic;
+ text-align: center;
+}
+
+.projects-blurb {
+  font-family: 'Libre Franklin';
+  font-size: 1em;
+  color: black;
+  margin: 20px 10px;
+  font-style: italic;
+}
+
+/*General Typography*/
+
+h1 {
+ font-family: 'Rubik', serif;
+ font-style: italic;
+ padding: 0.5em;
+ font-weight: 100;
+ margin-bottom: 0.5em;
+}
+
+h2, h3 {
+ font-family: 'Rubik', serif; 
+ font-size: 1.3em;
+ font-style: italic;
+ font-weight: 100;
+ text-align: center;
+ padding-bottom: 0.5em;
+}
+
+p, li {
+ font-family: Helvetica Neue, Arial, sans-serif;
+ font-size: 1em;
+ text-align: center;
+ line-height: 115%;
+}
+
+.black {
+ width: 20px;
+ border-style: solid;
+ border-color: #000;
+ border-width: 1px;
+}
+
+/*footer elements*/
+
+.twitter-follow-button {
+ text-align: center;
+}
+
+.footerstyle{
+ margin-top: 200px;
+ margin-bottom: 100px;
+ text-align: center;
+}
+
+/*MOBILE DEVICE SETTINGS*/
+
+@media (max-width: 480px) {
+ body {
+  width: 100%;
+ }
+ 
+ .box {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  border-left: solid;
+  border-right: solid;
+  background-color: #FFF;
+  }
+ 
+ h1{
+  text-align: center;
+ }
+
+ #scrapbook {
+  display: none;
+  }
+
+ .my-face {
+   margin: 20% 10% 0 20%;
+  }
+
+.form-box {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .row{ /*reset column left/right margins*/
+   padding: 10px;
+  }
+
+  .panel-body p {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .work-img {
+   display: block;
+   margin: auto;
+   width: 100%;
+   max-height: auto;
+   margin: 0 auto;
+   position: relative;
+  }
+}
