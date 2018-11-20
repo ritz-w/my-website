@@ -1,24 +1,31 @@
 var websites = [
   {
     title: "Digital Display Archive (2017)",
-    pic: "img/dda_screenshot.png",
+    pic: "img/dda.png",
     url: "http://d-d-a.herokuapp.com",
-    blurb: "Designed and developed research repository of art projects and exhibitions that use digital tools and contexts to create innovative forms of display.",
+    blurb: "Research repository of art projects and exhibitions that use digital tools and contexts to create innovative forms of display.",
     tags: ['Ruby', 'Rails', 'Javascript']
   }, 
   {
     title: "Gallerize (2017)",
-    pic: "img/blog_screenshot.png",
+    pic: "img/gallerize.png",
     url: "https://ritzblog.herokuapp.com/",
-    blurb: "Web app that allows users to position artworks onto virtual walls and then project them onto a 3D surface.",
-    tags: ['React', 'Javascript',  'AJAX', 'Rails', 'Ruby ']
+    blurb: "Web app that allows users to position artworks from museum APIs and Unsplash onto virtual walls and then project them onto a 3D surface.",
+    tags: ['React', 'React 360', 'Javascript', 'Rails', 'Ruby']
   },
   {
     title: "Semiotize (2018)",
     pic: "img/semiotize.png",
     url: "https://semiotize.herokuapp.com/",
     blurb: "This project was inspired by the role of semiotics in understanding the history of photography. It takes a photograph that the user uploads, and using image recognition technology, matches it to a database of over 500 works of contemporary and historic photography, finding common signs and symbols that have been used.",
-    tags: ['React', 'Redux', 'Javascript', 'AJAX', 'Rails', 'Ruby']
+    tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
+  },
+  {
+    title: "LocateHer (2018)",
+    pic: "img/locateher.png",
+    url: "https://semiotize.herokuapp.com/",
+    blurb: "Demo website in two days for the Women Founders in Tech Hackathon for tackling gender diversity in STEM. LocateHer is a single platform for mentorship opportunities & exclusive events targeted at women, who want to start a career in STEM, advance their opportunities, or start a business in STEM.",
+    tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
   }
 ];
 
