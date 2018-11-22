@@ -9,7 +9,7 @@ var websites = [
   {
     title: "Gallerize (2017)",
     pic: "img/gallerize.png",
-    url: "https://ritzblog.herokuapp.com/",
+    url: "https://gallerize-project.herokuapp.com/",
     blurb: "Web app that allows users to position artworks from museum APIs and Unsplash onto virtual walls and then project them onto a 3D surface.",
     tags: ['React', 'React 360', 'Javascript', 'Rails', 'Ruby']
   },
@@ -23,7 +23,7 @@ var websites = [
   {
     title: "LocateHer (2018)",
     pic: "img/locateher.png",
-    url: "https://semiotize.herokuapp.com/",
+    url: "https://locate-her.herokuapp.com/",
     blurb: "Demo website in two days for the Women Founders in Tech Hackathon for tackling gender diversity in STEM. LocateHer is a single platform for mentorship opportunities & exclusive events targeted at women, who want to start a career in STEM, advance their opportunities, or start a business in STEM.",
     tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
   }
