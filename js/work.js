@@ -24,7 +24,7 @@ var websites = [
     title: "LocateHer (2018)",
     pic: "img/locateher.png",
     url: "https://locate-her.herokuapp.com/",
-    blurb: "Demo website in two days for the Women Founders in Tech Hackathon for tackling gender diversity in STEM. LocateHer is a single platform for mentorship opportunities & exclusive events targeted at women, who want to start a career in STEM, advance their opportunities, or start a business in STEM.",
+    blurb: "Demo website for the Women Founders in Tech Hackathon for tackling gender diversity in STEM. LocateHer is a single platform for mentorship opportunities & exclusive events targeted at women, who want to start a career in STEM, advance their opportunities, or start a business in STEM.",
     tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
   }
 ];
