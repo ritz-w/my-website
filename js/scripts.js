@@ -2,12 +2,12 @@ var map;
 
 function initMap() {
   var myLatLng = {
-    lat: 51.5518,
-    lng: 0.0646
+    lat: 25.0330,
+    lng: 121.5654
   }
   var map = new google.maps.Map(document.getElementById('map'), {
     center: myLatLng,
-    zoom: 5
+    zoom: 8
   });
 
   var marker = new google.maps.Marker({

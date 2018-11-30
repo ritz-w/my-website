@@ -187,7 +187,7 @@ body {
 /*Contact ELEMENTS*/
 
 .contact-box {
- background-image: url("https://images.unsplash.com/photo-1505150215519-9f4054bfd3ff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94cc82045c67f5cc23ade60c34b325cb&auto=format&fit=crop&w=2468&q=80");
+ background-image: url("https://images.unsplash.com/photo-1542465233-4b4770aaa1bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67f91dd57a71f1c0a71d76ab3e5096da&auto=format&fit=crop&w=2550&q=80");
  background-attachment: fixed;
  background-size: cover;
  padding: 10% 0%;
@@ -195,19 +195,21 @@ body {
 
 #contact-main-text {
   padding: 6%;
+  color: black;
   margin-top: 10%;
   font-family: 'Rubik', Helvetica, Arial, sans-serif;
 }
 
 .contact-box p {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 300;
+  color: black;
   font-family: 'Rubik', Helvetica, Arial, sans-serif;
 }
 
 .contact-box a {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 300;
   color: black;
   font-family: 'Rubik', Helvetica, Arial, sans-serif;
 
