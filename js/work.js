@@ -26,6 +26,13 @@ var websites = [
     url: "https://locate-her.herokuapp.com/",
     blurb: "Demo website for the Women Founders in Tech Hackathon for tackling gender diversity in STEM. LocateHer is a single platform for mentorship opportunities & exclusive events targeted at women, who want to start a career in STEM, advance their opportunities, or start a business in STEM.",
     tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
+  },
+  {
+    title: "Self Brand Outlet (2018)",
+    pic: "img/self-brand-outlet.png",
+    url: "https://locate-her.herokuapp.com/",
+    blurb: "Conceptual online shop of contemporary artworks turned into merchandise, or merchandise presented by artists as artworks. Explores the different kinds of statements artists make on their relationship to trade, whether they be exercises in satire, democratising their work, fashion, promotion, philanthropy, or something else.",
+    tags: ['Node.JS', 'Mongo DB', 'Express', 'React', 'Javascript']
   }
 ];
 
