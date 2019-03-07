@@ -4,35 +4,42 @@ var websites = [
     pic: "img/dda.png",
     url: "http://d-d-a.herokuapp.com",
     blurb: "Research repository of art projects and exhibitions that use digital tools and contexts to create innovative forms of display.",
-    tags: ['Ruby', 'Rails', 'Javascript']
+    tags: ['Ruby', 'Rails', 'Javascript', 'Heroku']
   }, 
   {
     title: "Gallerize (2017)",
     pic: "img/gallerize.png",
     url: "https://gallerize-project.herokuapp.com/",
     blurb: "Web app that allows users to position artworks from museum APIs and Unsplash onto virtual walls and then project them onto a 3D surface.",
-    tags: ['React', 'React 360', 'Javascript', 'Rails', 'Ruby']
+    tags: ['React', 'React 360', 'Javascript', 'Rails', 'Ruby', 'Heroku']
   },
   {
     title: "Semiotize (2018)",
     pic: "img/semiotize.png",
     url: "https://semiotize.herokuapp.com/",
     blurb: "This project was inspired by the role of semiotics in understanding the history of photography. It takes a photograph that the user uploads, and using image recognition technology, matches it to a database of over 500 works of contemporary and historic photography, finding common signs and symbols that have been used.",
-    tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
+    tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby', 'Heroku']
   },
   {
     title: "LocateHer (2018)",
     pic: "img/locateher.png",
     url: "https://locate-her.herokuapp.com/",
     blurb: "Demo website for the Women Founders in Tech Hackathon for tackling gender diversity in STEM. LocateHer is a single platform for mentorship opportunities & exclusive events targeted at women, who want to start a career in STEM, advance their opportunities, or start a business in STEM.",
-    tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby']
+    tags: ['React', 'Redux', 'Javascript', 'Rails', 'Ruby', 'Heroku']
   },
   {
     title: "Self Brand Outlet (2018)",
     pic: "img/self-brand-outlet.png",
     url: "https://self-brand-outlet.herokuapp.com/",
     blurb: "Conceptual online shop of contemporary artworks turned into merchandise, or merchandise presented by artists as artworks. Explores the different kinds of statements artists make on their relationship to trade, whether they be exercises in satire, democratising their work, fashion, promotion, philanthropy, or something else.",
-    tags: ['Node.JS', 'Mongo DB', 'Express', 'React', 'Javascript']
+    tags: ['Node.JS', 'Mongo DB', 'Express', 'React', 'Javascript', 'Heroku']
+  },
+  {
+    title: "Wu Chia Lu Insurance Foundation (2019)",
+    pic: "img/wucl-foundation.png",
+    url: "http://www.wucl.org.tw/",
+    blurb: "Freelance project redesigning and developing a website for charitable foundation promoting cultural interest, education and research in the insurance industry.",
+    tags: ['React', 'Javascript', 'Rails', 'AWS' ]
   }
 ];
 
@@ -72,26 +79,26 @@ var events = [
   {
     title: "Moon Week (2015)",
     pic: "img/moonweek.jpg",
-    url: "https://ritzblog.herokuapp.com/",
+    url: "http://rcasu.org.uk/",
     blurb: "Curated a week of events and workshops dedicated to the moon. "
   },
   {
     title: "Diaspore (2016)",
     pic: "img/diaspore.jpg",
-    url: "https://ritzblog.herokuapp.com/",
+    url: "http://rcasu.org.uk/wp/event/diaspores-diaspora1-speculative-beaching-a-desert-island-disc-with-lou-atessa-marcellin-in-conversation-with-john-hill/",
     blurb: "Curated week of events, workshops, and performances on the subject of sustainability. In collaboration with Lou-Atessa Marcellin."
   }, 
 
   {
     title: "The Unknown Artist (2016)",
     pic: "img/unknownp1.jpg",
-    url: "https://ritzblog.herokuapp.com/",
+    url: "https://www.rca.ac.uk/more/special-collections/royal-college-art-archive-and-related-collections/",
     blurb: "Curated exhibition with works from the RCA archive, an epitaph to the enigmatic persona of the student within the collection. In collaboration with Miloslav Vorlicek."
   },
   {
     title: "Yoko Toda: The Complete Works (2011)",
     pic: "img/yokotoda.jpg",
-    url: "https://ritzblog.herokuapp.com/",
+    url: "http://yokotoda.com/",
     blurb: "In collaboration with Alice Wong, edited and produced monograph of archived works of Japanese painter Yoko Toda."
   }
 ]
